@@ -2,7 +2,7 @@
 
 ## License
 
-This repository contains code samples from the textbook *Quantum Computing and Information: A Scaffolding Approach (2nd Edition)*.
+This repository contains code samples for the textbook *Quantum Computing and Information: A Scaffolding Approach (2nd Edition)* by Peter Lee, Huiwen Ji, and Ran Cheng.
 
 All content in this repository is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
