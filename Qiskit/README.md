@@ -20,8 +20,9 @@ Once you have Python installed, create a [Python virtual environment](https://do
 and install the necessary packages in the folder of this repository using these commands:
 
 ``` bash
-python3 -m venv ./.venv
-source .venv/bin/activate
+cd Qiskit
+python3 -m venv venv
+source venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
