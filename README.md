@@ -4,7 +4,7 @@ This repository contains code samples for the textbook *Quantum Computing and In
 
 ## Copyright
 
-© Peter Lee, Published by Polaris QCI Publishing.
+© Polaris QCI Publishing.
 
 ## License
 
