@@ -80,4 +80,41 @@ You can also run the notebooks in [Visual Studio Code](https://code.visualstudio
 
 ## Cloud Services
 
-You can also run the Jupyter notebooks on Google Collab: TODO
+You can also run the Jupyter notebooks Cloud-hosted notebook services such as [Binder](https://mybinder.org/) or [Google Colab](https://colab.research.google.com/).
+
+Links for each sample for Binder and Colab are below:
+
+### bb84-quantum-key-distribution-demo
+
+[![Open In Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Polaris-QCI/Quantum-Computing-and-Information-ed2/main?labpath=Qiskit%2F05-Single-Qubit-Quantum-Gates%2Fbb84-quantum-key-distribution-demo.ipynb)"
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Polaris-QCI/Quantum-Computing-and-Information-ed2/blob/main/Qiskit/05-Single-Qubit-Quantum-Gates/bb84-quantum-key-distribution-demo.ipynb)
+
+### quantum-coin-game-demo
+
+[![Open In Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Polaris-QCI/Quantum-Computing-and-Information-ed2/main?labpath=Qiskit%2F05-Single-Qubit-Quantum-Gates%2Fquantum-coin-game-demo.ipynb)"
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Polaris-QCI/Quantum-Computing-and-Information-ed2/blob/main/Qiskit/05-Single-Qubit-Quantum-Gates/quantum-coin-game-demo.ipynb)
+
+### teleportation-demo
+
+[![Open In Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Polaris-QCI/Quantum-Computing-and-Information-ed2/main?labpath=Qiskit%2F10-Key-Applications-of-Entanglement%2Fteleportation-demo.ipynb)"
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Polaris-QCI/Quantum-Computing-and-Information-ed2/blob/main/Qiskit/10-Key-Applications-of-Entanglement/teleportation-demo.ipynb)
+
+### e91-quantum-key-distribution-demo
+
+[![Open In Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Polaris-QCI/Quantum-Computing-and-Information-ed2/main?labpath=Qiskit%2F10-Key-Applications-of-Entanglement%2Fe91-quantum-key-distribution-demo.ipynb)"
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Polaris-QCI/Quantum-Computing-and-Information-ed2/blob/main/Qiskit/10-Key-Applications-of-Entanglement/e91-quantum-key-distribution-demo.ipynb)
+
+### 3-qubit-bitflip-demo
+
+[![Open In Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Polaris-QCI/Quantum-Computing-and-Information-ed2/main?labpath=Qiskit%2F13-Quantum-Error-Correction%2F3-qubit-bitflip-demo.ipynb)"
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Polaris-QCI/Quantum-Computing-and-Information-ed2/blob/main/Qiskit/13-Quantum-Error-Correction/3-qubit-bitflip-demo.ipynb)
+
+### 3-qubit-phaseflip-demo
+
+[![Open In Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Polaris-QCI/Quantum-Computing-and-Information-ed2/main?labpath=Qiskit%2F13-Quantum-Error-Correction%2F3-qubit-phaseflip-demo.ipynb)"
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Polaris-QCI/Quantum-Computing-and-Information-ed2/blob/main/Qiskit/13-Quantum-Error-Correction/3-qubit-phaseflip-demo.ipynb)
+
+### 9-qubit-Shor-code-demo
+
+[![Open In Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Polaris-QCI/Quantum-Computing-and-Information-ed2/main?labpath=Qiskit%2F13-Quantum-Error-Correction%2F9-qubit-Shor-code-demo.ipynb)"
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Polaris-QCI/Quantum-Computing-and-Information-ed2/blob/main/Qiskit/13-Quantum-Error-Correction/9-qubit-Shor-code-demo.ipynb)
