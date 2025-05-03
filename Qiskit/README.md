@@ -56,24 +56,50 @@ The code is in the form of Python Jupyter notebooks.
 You can run the code locally, or in the cloud using one of several Jupyter hosting services.
 
 To run the notebooks locally, we recommend using [uv](https://docs.astral.sh/uv/) to manage your Python environment.
-These instructions assume you are using uv in a Unix-like environment (Linux, MacOS, WSL).
-(TODO: add Windows instructions)
+Follow the instructions for "macOS and Linux" if you are using macOS, Linux, or WSL2.
+Follow the instructions for "Windows" if you are using Windows.
+You may need to update your `PATH` environment variable to include the location of the `uv` executable.
 
-Once you have uv installed, sync the project and initialize your virtual environment using the following commands:
+Once you have `uv` installed, sync the project and create your virtual environment using the following commands:
 
 ```
 cd Qiskit
 uv sync
+```
+
+You can run the Jupyter notebooks locally in several ways:
+
+* Using [Visual Studio Code](https://code.visualstudio.com/).
+* Using [PyCharm](https://www.jetbrains.com/pycharm/).
+* Using `jupyter-notebook` on the command line.
+
+To use Visual Studio Code or PyCharm, open the project in the IDE and select the virtual environment you created with `uv`.
+
+To use `jupyter-notebook`, initialize the virtual environment first:
+
+On maxOS, Linux, or WSL2:
+
+``` bash
 source .venv/bin/activate
 ```
 
-To run the Jupyter notebook server, use the command:
+On Windows (PowerShell):
 
-``` bash
-jupyter notebook
+``` powershell
+.venv\Scripts\activate.ps1
 ```
 
-You can also run the notebooks in [Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/github) if you prefer a more powerful coding environment.
+On Windows (Command Prompt):
+
+``` cmd
+.venv\Scripts\activate.bat
+```
+
+Then, run the Jupyter notebook server:
+
+``` bash
+jupyter-notebook
+```
 
 ## Cloud Services
 
