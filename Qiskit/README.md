@@ -55,19 +55,16 @@ The code is in the form of Python Jupyter notebooks.
 
 You can run the code locally, or in the cloud using one of several Jupyter hosting services.
 
-To run the notebooks locally, you need to have Python3 installed on your computer.
+To run the notebooks locally, we recommend using [uv](https://docs.astral.sh/uv/) to manage your Python environment.
+These instructions assume you are using uv in a Unix-like environment (Linux, MacOS, WSL).
+(TODO: add Windows instructions)
 
-Consult the instructions at [python.org](https://www.python.org/) to download and install Python3.
+Once you have uv installed, sync the project and initialize your virtual environment using the following commands:
 
-Once you have Python installed, create a [Python virtual environment](https://docs.python.org/3/library/venv.html)
-and install the necessary packages in the folder of this repository using these commands:
-
-``` bash
+```
 cd Qiskit
-python3 -m venv venv
-source venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
+uv sync
+source .venv/bin/activate
 ```
 
 To run the Jupyter notebook server, use the command:
